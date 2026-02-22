@@ -1,0 +1,15 @@
+# Compilados C++
+*.out
+*.exe
+*.o
+*.a
+
+# Mac
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Build folders
+build/
+bin/
