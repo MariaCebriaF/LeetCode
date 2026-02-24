@@ -26,7 +26,7 @@ public:
     bool hasAllCodes(string s, int k)
     {
 
-        //  Precomputar todas las combinaciones
+        //  Precomputar todas las combinaciones posibles con k
         vector<string> compu;
         int total = 1 << k;
 
