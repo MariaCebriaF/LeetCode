@@ -9,7 +9,7 @@ public:
         while (columnNumber > 0)
         {
 
-            columnNumber--; // clave para evitar el 0
+            columnNumber--;
 
             int letra = columnNumber % 26;
 
