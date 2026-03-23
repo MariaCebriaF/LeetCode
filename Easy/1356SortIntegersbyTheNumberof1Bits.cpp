@@ -8,7 +8,9 @@ public:
             int ca = __builtin_popcount(a);
             int cb = __builtin_popcount(b);
             if (ca == cb) return a < b;
-            return ca < cb; });
+            return ca < cb; 
+            }
+        );  
         return arr;
     }
 };
